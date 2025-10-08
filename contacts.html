@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Nalanda College</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/fav_icon.jpg">
+  <style>
+    .contact-section {
+      padding: 80px 10%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      background: #fff8f5;
+    }
+    .contact-info, .contact-form {
+      flex: 1;
+      min-width: 320px;
+    }
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background: #7a0000;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-form button:hover {
+      background: #a00000;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border-radius: 8px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo"><img src="assets/fav_icon.jpg" alt="Nalanda College Logo"></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="socities.html">Clubs & Societies</a></li>
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-image"><img src="assets/contact-cover.jpg" alt="Contact Hero"></div>
+    <div class="hero-content">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you. Get in touch with Nalanda College.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-info">
+      <h2>Get In Touch</h2>
+      <p><strong>Address:</strong> No. 123, College Road, Colombo 10, Sri Lanka</p>
+      <p><strong>Phone:</strong> +94 11 269 5227</p>
+      <p><strong>Email:</strong> info@nalandacollege.lk</p>
+      <iframe src="https://www.google.com/maps?q=Nalanda+College+Colombo+10&output=embed"></iframe>
+    </div>
+
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/fav_icon.jpg" alt="Nalanda College Logo">
+        <p>Character illumines Wisdom</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="socities.html">Clubs & Societies</a></li>
+          <li><a href="sports.html">Sports</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Nalanda College. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
